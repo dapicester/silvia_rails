@@ -9,4 +9,9 @@ class ActiveSupport::TestCase
   fixtures :all
 
   # Add more helper methods to be used by all tests here...
+  include ApplicationHelper
+
+  def t(key, options = {})
+    I18n.translate key, options
+  end
 end
