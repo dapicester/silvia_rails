@@ -14,4 +14,8 @@ class ActiveSupport::TestCase
   def t(key, options = {})
     I18n.translate key, options
   end
+
+  def is_logged_in?
+    !session[:user_id].nil?
+  end
 end

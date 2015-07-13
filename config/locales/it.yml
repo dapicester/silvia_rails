@@ -6,7 +6,12 @@ it:
     header:
       home: Home
       help: Aiuto
-      signin: Accedi
+      login: Accedi
+      users: Utenti
+      account: Account
+      profile: Profilo
+      settings: Impostazioni
+      logout: Esci
     footer:
       about: Informazioni
       contact: Contatti
@@ -31,6 +36,12 @@ it:
       submit: Crea il mio account
     create:
       welcome: Benvenuto nel Mondo di Silvia
+  sessions:
+    new:
+      title: Login
+      submit: Login
+      newuser: Sei un nuovo utente?
+      signup: Registrati ora!
   form:
     errors:
       one: Questo form contiene un error
