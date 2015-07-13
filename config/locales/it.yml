@@ -28,3 +28,14 @@ it:
   users:
     new:
       title: Registrazione
+      submit: Crea il mio account
+    create:
+      welcome: Benvenuto nel Mondo di Silvia
+  form:
+    errors:
+      one: Questo form contiene un error
+      other: Questo form contiene %{count} errori
+  activerecord:
+    attributes:
+      user:
+        password_confirmation: Conferma

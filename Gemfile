@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '4.2.2'
+gem 'rails-i18n', github: 'svenfuchs/rails-i18n', branch: 'master'
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass'
 gem 'uglifier', '>= 1.3.0'
