@@ -25,3 +25,6 @@ it:
     contact:
       title: Contatti
       message: "Sei interessato a questo sito? Contattami:"
+  users:
+    new:
+      title: Registrazione

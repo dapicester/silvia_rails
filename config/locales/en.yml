@@ -25,3 +25,6 @@ en:
     contact:
       title: Contacts
       message: "Are you interested in this website? Feel free to contact me:"
+  users:
+    new:
+      title: Sign up
