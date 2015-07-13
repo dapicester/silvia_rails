@@ -9,7 +9,7 @@
   %body
     = render 'layouts/header'
     .container
-      = render 'shared/flash'
+      = render 'shared/flash_messages'
       = yield
       = render 'layouts/footer'
       = render 'layouts/development_info' if Rails.env.development?

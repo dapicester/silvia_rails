@@ -10,6 +10,8 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
                                password_confirmation: 'foo' }
     end
     assert_template 'users/new'
+    assert_select '#error_explanation'
+    assert_select '#error_explanation li', count: 3
   end
 
   test 'valid signup information' do
@@ -21,5 +23,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
                                             password_confirmation: 'password' }
     end
     assert_template 'users/show'
+    assert_not flash.empty?
   end
 end
