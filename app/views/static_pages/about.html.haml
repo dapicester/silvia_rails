@@ -1,5 +1,8 @@
-- provide :title, 'Informazioni'
+- provide :title, t('.title')
 
-%h1 Informazioni
+%h1= t '.title'
 %p
-  Questo è il mondo di Silvia
+  = t '.message'
+%p
+  = t '.whoami'
+  = link_to t('.me'), 'https://www.facebook.com/silvia.dapice', target: '_blank'

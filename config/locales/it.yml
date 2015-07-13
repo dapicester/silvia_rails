@@ -1,0 +1,27 @@
+it:
+  application:
+    title: Il mondo di Silvia
+    subtitle: Pensieri in libertà
+  layouts:
+    header:
+      home: Home
+      help: Aiuto
+      signin: Accedi
+    footer:
+      about: Informazioni
+      contact: Contatti
+  static_pages:
+    home:
+      message: Questo è il posto dove Silvia può scrivere tutto ciò che vuole.
+      signup: Registrati ora!
+    help:
+      title: Aiuto
+      message: Se hai bisogno di aiuto chiedi direttamente a Silvia.
+    about:
+      title: Informazioni
+      message: Questo è il mondo di Silvia.
+      whoami: Chi è Silvia?
+      me: Eccomi!
+    contact:
+      title: Contatti
+      message: "Sei interessato a questo sito? Contattami:"

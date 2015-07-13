@@ -1,4 +1,6 @@
-%h1 Il mondo di Silvia
-%h2 Pensieri in Libertà
-%p
-  Questo è il posto dove Silvia può scrivere tutto ciò che vuole.
+.center.jumbotron
+  %h1= t 'application.title'
+  %h2= t 'application.subtitle'
+  %p
+    = t '.message'
+  = link_to t('.signup'), '#', class: 'btn btn-lg btn-primary'

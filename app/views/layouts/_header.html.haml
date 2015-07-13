@@ -1,0 +1,8 @@
+%header.navbar.navbar-fixed-top.navbar-inverse
+  .container
+    =link_to 'Silvia', root_path, id: 'logo', target: '_blank'
+    %nav
+      %ul.nav.navbar-nav.navbar-right
+        %li= link_to t('.home'), root_path
+        %li= link_to t('.help'), help_path
+        %li= link_to t('.signin'), '#'
