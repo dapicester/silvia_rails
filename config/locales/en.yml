@@ -40,8 +40,10 @@ en:
     new:
       title: Log in
       submit: Log in
+      remember: Remember me on this computer
       newuser: New user?
       signup: Sign up now!
+      remember-me: Remember me on this computer
   form:
     errors:
       one: This form contains one error

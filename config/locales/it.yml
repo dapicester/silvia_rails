@@ -40,8 +40,10 @@ it:
     new:
       title: Login
       submit: Login
+      remember: Ricordami su questo computer
       newuser: Sei un nuovo utente?
       signup: Registrati ora!
+      remember-me: Resta connesso su questo computer
   form:
     errors:
       one: Questo form contiene un error
