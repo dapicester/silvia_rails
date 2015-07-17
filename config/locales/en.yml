@@ -34,8 +34,14 @@ en:
     new:
       title: Sign up
       submit: Create my account
+      gravatar: change
     create:
       welcome: Welcome into Silvia's World
+    edit:
+      title: Edit user
+      submit: Save changes
+    update:
+      updated: Profile updated
   sessions:
     new:
       title: Log in

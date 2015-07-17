@@ -34,8 +34,14 @@ it:
     new:
       title: Registrazione
       submit: Crea il mio account
+      gravatar: Cambia
     create:
       welcome: Benvenuto nel Mondo di Silvia
+    edit:
+      title: Modifica profilo
+      submit: Salve modifiche
+    update:
+      updated: Profilo aggiornato
   sessions:
     new:
       title: Login
