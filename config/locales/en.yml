@@ -34,6 +34,8 @@ en:
     login: Please log in
     index:
       title: All users
+      delete: Delete
+      delete-confirm: You sure?
     new:
       title: Sign up
       submit: Create my account
@@ -45,6 +47,8 @@ en:
       submit: Save changes
     update:
       updated: Profile updated
+    destroy:
+      deleted: User deleted
   sessions:
     new:
       title: Log in

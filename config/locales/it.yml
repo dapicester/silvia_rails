@@ -34,6 +34,8 @@ it:
     login: Devi prima accedere
     index:
       title: Tutti gli utenti
+      delete: Cancella
+      delete-confirm: Sei sicuro?
     new:
       title: Registrazione
       submit: Crea il mio account
@@ -45,6 +47,8 @@ it:
       submit: Salve modifiche
     update:
       updated: Profilo aggiornato
+    destroy:
+      deleted: Utente cancellato
   sessions:
     new:
       title: Login
