@@ -15,6 +15,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bcrypt', '~> 3.1.7'
 gem 'faker'
+gem 'will_paginate'
+gem 'will-paginate-i18n'
+gem 'bootstrap-will_paginate'
 
 group :development, :test do
   gem 'sqlite3'
