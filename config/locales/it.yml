@@ -31,6 +31,7 @@ it:
       title: Contatti
       message: "Sei interessato a questo sito? Contattami:"
   users:
+    login: Devi prima accedere
     new:
       title: Registrazione
       submit: Crea il mio account

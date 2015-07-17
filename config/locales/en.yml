@@ -31,6 +31,7 @@ en:
       title: Contacts
       message: "Are you interested in this website? Feel free to contact me:"
   users:
+    login: Please log in
     new:
       title: Sign up
       submit: Create my account
