@@ -57,6 +57,12 @@ en:
       newuser: New user?
       signup: Sign up now!
       remember-me: Remember me on this computer
+    create:
+      not-activated: Account not activated. Check your email for the activation link.
+  account_activations:
+    edit:
+      activated: Account activated
+      invalid: Invalid activation link
   form:
     errors:
       one: This form contains one error
@@ -65,3 +71,11 @@ en:
     attributes:
       user:
         password_confirmation: Confirmation
+  user_mailer:
+    account_activation:
+      subject: Account activation
+      salutation: Hi %{name},
+      body: >
+        Welcome!
+        Click on the link below to activate your account:
+      activate: Activate
