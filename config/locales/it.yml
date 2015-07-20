@@ -57,12 +57,27 @@ it:
       newuser: Sei un nuovo utente?
       signup: Registrati ora!
       remember-me: Resta connesso su questo computer
+      forgot-password: (ho dimenticato la password)
     create:
       not-activated: Account non attivo. Controlla la tua email per il link di attivazione.
   account_activations:
     edit:
       activated: Account attivato
       invalid: Link di attivazione invalido
+  password_resets:
+    new:
+      title: Password dimenticata
+      submit: Invia
+    create:
+      sent: Inviata email con le istruzioni per cambiare la password
+      not-found: Indirizzo email non trovato
+    edit:
+      title: Cambia password
+      submit: Aggiorna password
+    update:
+      empty: La password non può essere vuota
+      reset: La password è stata cambiata
+    expired: La richiesta è scaduta
   form:
     errors:
       one: Questo form contiene un error
@@ -79,4 +94,11 @@ it:
         Benvenuto!
         Clicca sul link qui sotto per attivare il tuo account:
       activate: Attiva
-
+    password_reset:
+      subject: Cambio password
+      link: "Per cambiare la tua password clicca sul link qui sotto:"
+      expire: Il link è valido per due ore.
+      ignore: >
+        Se non hai richiesto di cambiare la password, per favore ignora
+        questa email e la tua password non sarà modificata.
+      reset: Cambia password
