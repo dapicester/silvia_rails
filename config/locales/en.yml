@@ -41,7 +41,7 @@ en:
       submit: Create my account
       gravatar: change
     create:
-      welcome: Welcome into Silvia's World
+      welcome: Please check your email to activate your account.
     edit:
       title: Edit user
       submit: Save changes
@@ -62,7 +62,7 @@ en:
       not-activated: Account not activated. Check your email for the activation link.
   account_activations:
     edit:
-      activated: Account activated
+      activated: Welcome into Silvia's world!
       invalid: Invalid activation link
   password_resets:
     new:

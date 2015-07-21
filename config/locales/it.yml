@@ -41,7 +41,7 @@ it:
       submit: Crea il mio account
       gravatar: Cambia
     create:
-      welcome: Benvenuto nel Mondo di Silvia
+      activate: Per favore controlla la tua email per attivare il tuo account.
     edit:
       title: Modifica profilo
       submit: Salve modifiche
@@ -62,7 +62,7 @@ it:
       not-activated: Account non attivo. Controlla la tua email per il link di attivazione.
   account_activations:
     edit:
-      activated: Account attivato
+      activated: Benvenuto nel mondo di Silvia!
       invalid: Link di attivazione invalido
   password_resets:
     new:
