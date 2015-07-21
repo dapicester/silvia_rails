@@ -1,4 +1,6 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'no-reply@example.com' # TODO: set this into an initializer
+  sender_domain = Rails.application.config.action_mailer.default_url_options[:host] || 'unknown'
+
+  default from: "no-reply@#{sender_domain}"
   layout 'mailer'
 end
