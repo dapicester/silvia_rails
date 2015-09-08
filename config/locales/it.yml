@@ -47,6 +47,8 @@ it:
       submit: Salve modifiche
     update:
       updated: Profilo aggiornato
+    show:
+      microposts: "Microposts (%{count})"
     destroy:
       deleted: Utente cancellato
   sessions:
@@ -102,3 +104,5 @@ it:
         Se non hai richiesto di cambiare la password, per favore ignora
         questa email e la tua password non sarà modificata.
       reset: Cambia password
+  microposts:
+    posted_at: "Pubblicato %{when} fa."

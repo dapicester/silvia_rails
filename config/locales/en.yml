@@ -47,6 +47,8 @@ en:
       submit: Save changes
     update:
       updated: Profile updated
+    show:
+      microposts: "Microposts (%{count})"
     destroy:
       deleted: User deleted
   sessions:
@@ -102,3 +104,5 @@ en:
         If you did not request your password to be reset,
         please ignore this email and you password will stay as it is.
       reset: Reset password
+  microposts:
+    posted_at: "Posted %{when} ago."
